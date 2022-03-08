@@ -1,4 +1,4 @@
-# market-data-consumer-gemini Project
+# market-data-consumer-gemini
 
 This project uses Quarkus, the Supersonic Subatomic Java Framework.
 
@@ -30,39 +30,3 @@ If you want to build an _über-jar_, execute the following command:
 ```
 
 The application, packaged as an _über-jar_, is now runnable using `java -jar target/*-runner.jar`.
-
-## Creating a native executable
-
-You can create a native executable using: 
-```shell script
-./mvnw package -Pnative
-```
-
-Or, if you don't have GraalVM installed, you can run the native executable build in a container using: 
-```shell script
-./mvnw package -Pnative -Dquarkus.native.container-build=true
-```
-
-You can then execute your native executable with: `./target/market-data-consumer-gemini-0.0.1-SNAPSHOT-runner`
-
-If you want to learn more about building native executables, please consult https://quarkus.io/guides/maven-tooling.
-
-## Related Guides
-
-- YAML Configuration ([guide](https://quarkus.io/guides/config#yaml)): Use YAML to configure your Quarkus application
-
-## Provided Code
-
-### YAML Config
-
-Configure your application with YAML
-
-[Related guide section...](https://quarkus.io/guides/config-reference#configuration-examples)
-
-The Quarkus application configuration is located in `src/main/resources/application.yml`.
-
-### RESTEasy Reactive
-
-Easily start your Reactive RESTful Web Services
-
-[Related guide section...](https://quarkus.io/guides/getting-started-reactive#reactive-jax-rs-resources)

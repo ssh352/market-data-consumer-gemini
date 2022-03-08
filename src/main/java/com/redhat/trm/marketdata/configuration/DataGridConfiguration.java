@@ -1,8 +1,9 @@
 package com.redhat.trm.marketdata.configuration;
 
-import com.redhat.trm.shared.proto.*;
-import com.redhat.trm.shared.proto.instrument.InstrumentSchema;
+import com.redhat.trm.shared.proto.CacheConstants;
+import com.redhat.trm.shared.proto.CommonSchemaImpl;
 import com.redhat.trm.shared.proto.instrument.InstrumentSchemaImpl;
+import com.redhat.trm.shared.proto.marketdata.MarketDataSchemaImpl;
 import io.quarkus.runtime.StartupEvent;
 import org.infinispan.client.hotrod.DefaultTemplate;
 import org.infinispan.client.hotrod.RemoteCacheManager;

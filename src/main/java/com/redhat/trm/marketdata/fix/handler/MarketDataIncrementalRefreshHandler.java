@@ -2,9 +2,9 @@ package com.redhat.trm.marketdata.fix.handler;
 
 import com.redhat.trm.shared.proto.CacheConstants;
 import com.redhat.trm.shared.proto.Exchange;
-import com.redhat.trm.shared.proto.marketdepth.MarketDepth;
-import com.redhat.trm.shared.proto.marketdepth.MarketDepthEntry;
-import com.redhat.trm.shared.proto.marketdepth.MarketDepthKey;
+import com.redhat.trm.shared.proto.marketdata.MarketDepth;
+import com.redhat.trm.shared.proto.marketdata.MarketDepthEntry;
+import com.redhat.trm.shared.proto.marketdata.MarketDepthKey;
 import io.micrometer.core.annotation.Timed;
 import io.quarkus.infinispan.client.Remote;
 import org.infinispan.client.hotrod.RemoteCache;
