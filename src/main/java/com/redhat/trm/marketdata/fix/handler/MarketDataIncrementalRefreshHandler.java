@@ -1,7 +1,7 @@
 package com.redhat.trm.marketdata.fix.handler;
 
-import com.redhat.trm.shared.proto.CacheConstants;
-import com.redhat.trm.shared.proto.Exchange;
+import com.redhat.trm.shared.proto.common.CacheConstants;
+import com.redhat.trm.shared.proto.common.Exchange;
 import com.redhat.trm.shared.proto.marketdata.MarketDepth;
 import com.redhat.trm.shared.proto.marketdata.MarketDepthEntry;
 import com.redhat.trm.shared.proto.marketdata.MarketDepthKey;

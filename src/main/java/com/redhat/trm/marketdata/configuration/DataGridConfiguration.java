@@ -1,7 +1,7 @@
 package com.redhat.trm.marketdata.configuration;
 
-import com.redhat.trm.shared.proto.CacheConstants;
-import com.redhat.trm.shared.proto.CommonSchemaImpl;
+import com.redhat.trm.shared.proto.common.CacheConstants;
+import com.redhat.trm.shared.proto.common.CommonSchemaImpl;
 import com.redhat.trm.shared.proto.instrument.InstrumentSchemaImpl;
 import com.redhat.trm.shared.proto.marketdata.MarketDataSchemaImpl;
 import io.quarkus.runtime.StartupEvent;

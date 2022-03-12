@@ -1,2 +1,17 @@
-qfj:
-  settings: /Users/stephennimmo/gemini-local.settings
+'%dev':
+  qfj:
+    settings: /Users/stephennimmo/gemini-local.settings
+  quarkus:
+    keycloak:
+      devservices:
+        enabled: false
+    log:
+      level: INFO
+    http:
+      port: 8081
+    infinispan-client:
+      server-list: localhost:11222
+      auth-username: admin
+      auth-password: Password123
+      # Use BASIC as a Docker for Mac workaround
+      client-intelligence: BASIC
