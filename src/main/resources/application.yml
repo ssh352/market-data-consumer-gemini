@@ -2,9 +2,6 @@
   qfj:
     settings: /Users/stephennimmo/gemini-local.settings
   quarkus:
-    keycloak:
-      devservices:
-        enabled: false
     log:
       level: INFO
     http:
